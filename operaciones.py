@@ -1,17 +1,16 @@
-#DEFINICION DE DOS VARIABLES EN PYTHON PARA HACER CALCULOS MATEMATICOS :D
+# Definición de variables ingresadas por el usuario
+a = float(input("Ingresa el valor de a: "))
+b = float(input("Ingresa el valor de b: "))
 
-#definicion de variables
-a = 10
-b = 5
-
-#operaciones matematicas
+# Operaciones matemáticas
 suma = a + b
 resta = a - b
-multiplicación = a * b
-división = a / b
+multiplicacion = a * b
+division = a / b
 
-#impresion de resultados
-print("La suma de a y b es :", suma)
-print("La resta de a y b es :", resta)
-print("La multiplicacion de a y b es :", multiplicación)
-print("La division de a y b es :", división)
+# Impresión de resultados
+print("\nResultados de las operaciones:")
+print("La suma de a y b es:", suma)
+print("La resta de a y b es:", resta)
+print("La multiplicación de a y b es:", multiplicacion)
+print("La división de a y b es:", division)
